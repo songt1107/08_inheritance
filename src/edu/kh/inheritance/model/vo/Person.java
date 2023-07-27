@@ -9,7 +9,7 @@ public class Person extends Object{
 	private int age; // 나이
 	private String nationality; // 국적
 	
-	// 기본 생성자
+	// 기본 생성자 ctrl + space + enter
 	public Person() {}
 	
 	// 매개변수 생성자
