@@ -99,5 +99,8 @@ public class Student extends Person {
 		this.classRoom = classRoom;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return super.toString() + " / " + grade + " / " + classRoom;
+	}
 }

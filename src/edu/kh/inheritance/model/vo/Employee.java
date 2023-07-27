@@ -53,5 +53,19 @@ public class Employee extends Person {
 	}
 	
 	
+	// Person으로부터 상속받은 메서드 중
+	// move() 메서드를 Employee에 맞게 재정의(== 오버라이딩)
+	
+	// @Override 어노테이션 : 해당 메소드가 오버라이딩 되었음을
+	// 					   컴파일러에게 알려주는 역할 -> 컴파일러에게 문법 체크를 하도록 알린다
+	
+	// 어노테이션(Annotation) : 컴파일러에게 알려주기 위한 코드 (컴파일러 인식용 주석)
+	@Override
+	public void move() {
+		System.out.println("오버라이딩된 move()");
+		System.out.println("효율적으로 빨리 일하고 움직인다.");
+	}
+	
+	
 }
 
